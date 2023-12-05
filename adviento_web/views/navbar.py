@@ -24,14 +24,18 @@ def navbar()-> rx.Component:
             rx.spacer(),
             rx.tablet_and_desktop(
                 link_icon(
-                    "youtube",
-                    constants.YOUTUBE_URL
-                )
+                    "twitch",
+                    constants.TWITCH_URL
+                ),
             ),
             link_icon(
-                "twitch",
-                constants.TWITCH_URL
+                "twitter",
+                constants.TWITTER_URL_PABLO
             ),
+            # link_icon(
+            #     "twitch",
+            #     constants.TWITCH_URL
+            # ),
             link_icon(
                 "github",
                 constants.GITHUB_URL

@@ -19,10 +19,10 @@ def instructions()-> rx.Component:
                 constants.YOUTUBE_URL2
 
             ),
-            rx.span("* Puedes ir viendo como va viajando Papá Noel si pinchas en el hashtag"),
+            rx.span("* Puedes ir viendo como va viajando Papá Noel y sus apariciones si pinchas en el siguiente botón"),
             button(
-                "Twitter",
-                constants.TWITTER_URL
+                "Youtube",
+                constants.YOUTUBE_URL
             ),
             class_name="nes-container is-dark with-title",
             align_items="start",

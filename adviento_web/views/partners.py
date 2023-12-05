@@ -14,10 +14,14 @@ def partners()-> rx.Component:
                 False
             ),
             rx.span(
-                "PApá Noel nos va informando subre sus avances y sus apariciones en TV y redes sociales."
+                "Papá Noel nos va informando subre sus avances y sus apariciones en TV y redes sociales."
             ),
             rx.span(
                 "¿Quieres apoyar esta iniciativa? Ponte en contacto conmigo por Twitter."
+            ),
+            rx.link(
+                "twitter",
+                href=constants.TWITTER_URL_ROSA
             ),
             # spacing=Size.BIG.value,
             padding_y=Size.VERY_BIG.value,

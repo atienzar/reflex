@@ -23,6 +23,7 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                 rx.box(
                     class_name="snes-jp-logo",
                     alt="jugar",
+                    padding_top=Size.MEDIUM.value
                 ),
                 rx.span(
                     "Jugar VR!"
@@ -36,6 +37,7 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                 rx.box(
                     class_name="snes-jp-logo",
                     alt="jugar",
+                    padding_top=Size.MEDIUM.value
                 ),
                 rx.span(
                     "Jugar VR!"
@@ -49,13 +51,17 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                 rx.box(
                     class_name="nes-icon trophy is-large",
                     alt="carrera Navidad",
+                    # padding_top=Size.MEDIUM.value
                 ),
                 rx.span(
-                    "Carrera"
+                    "Carrera",
+                    padding_left=Size.SMALL.value
                 ),
                 rx.span(
-                    "Navidad"
+                    "Navidad",
+                    padding_left=Size.SMALL.value
                 ),
+                padding_top=Size.MEDIUM.value,
                 position="absolute",
             ),
         ), 
@@ -65,12 +71,15 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                 rx.box(
                     class_name="nes-icon is-large like",
                     alt="vacaciones",
+                    padding_top=Size.MEDIUM.value
                 ),
 
                 rx.span(
                     "¡Vacas!",
+                    padding_left=Size.SMALL.value
                 ),
                 position="absolute",
+                padding_top=Size.MEDIUM.value,
             ),
         ),  
         rx.cond(
@@ -82,12 +91,14 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                 ),
                 rx.span(
                     "Cumple",
-                    padding_right=Size.SMALL.value
+                    padding_left=Size.SMALL.value
                 ),
                 rx.span(
-                    "JuanPi"
+                    "JuanPi",
+                    padding_left=Size.SMALL.value
                 ),
                 position="absolute",
+                padding_top=Size.MEDIUM.value,
             ),
         ),     
         rx.cond(
@@ -99,6 +110,33 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                 alt=f"Regalo asociado al dia {number}",
                 position="absolute",
                 html_height="32px",
+                padding_top=Size.MEDIUM.value,
+                padding_right=Size.SMALL.value
+            ),
+        ),
+        rx.cond(
+            number == 31,
+            rx.vstack(
+
+                rx.hstack(
+                    # rx.box(
+                    #     class_name="nes-icon is-small star",
+                    # ),
+                    # rx.box(
+                    #     class_name="nes-icon is-small star",
+                    # ),
+                ),
+                rx.box(
+                    class_name="nes-icon is-medium star",
+                    alt="cumple JuanPi",
+                ),
+                rx.span(
+                    "¡2024!",
+                    padding_left=Size.SMALL.value
+                ),
+                position="absolute",
+                padding_top=Size.MEDIUM.value,
+            
             ),
         ),
         rx.text(

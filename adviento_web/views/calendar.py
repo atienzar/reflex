@@ -19,9 +19,16 @@ def calendar()-> rx.Component:
                 rx.text(id="countdown" ),
                 align_items="start",
             ),
-            button(
-                "Recordatorio",
-                constants.DISCORD_URL
+            # button(
+            #     "Recordatorio",
+            #     constants.DISCORD_URL
+            # ),
+            rx.box(
+                rx.span(
+                    "¡Importante!",
+                    class_name="is-error"
+                ),
+                class_name="nes-badge",
             ),
             rx.span(
                 "Todo lo que pueda traer Papá Noel es una sorpresa, no tiene que ser todo lo que has pedido y lo mismo él añade sopresas que te gustarán."
