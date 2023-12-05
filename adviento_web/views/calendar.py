@@ -32,7 +32,7 @@ def calendar()-> rx.Component:
         ),
         rx.responsive_grid(
             rx.foreach(
-                list(range(1,31)),
+                list(range(1,32)),
                 lambda number:
                     day(
                         number

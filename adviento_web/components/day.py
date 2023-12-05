@@ -51,7 +51,7 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                     alt="carrera Navidad",
                 ),
                 rx.span(
-                    "Carrera de"
+                    "Carrera"
                 ),
                 rx.span(
                     "Navidad"
@@ -81,7 +81,7 @@ def day(number:int, image:str = "gift.png", url: str = "")-> rx.Component:
                     alt="cumple JuanPi",
                 ),
                 rx.span(
-                    "Cumple de",
+                    "Cumple",
                     padding_right=Size.SMALL.value
                 ),
                 rx.span(

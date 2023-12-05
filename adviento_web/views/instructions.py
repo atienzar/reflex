@@ -13,16 +13,16 @@ def instructions()-> rx.Component:
                 color=TextColor.ACCENT.value
             ),
             rx.span("* Cada día iremos actualizando el número de días que quedan para que venga Papá Noel."),
+            rx.span("* Te dejamos esta selección de villancicos para que vayas poniendole música a la Navidad."),
+            button(
+                "Villancicos",
+                constants.YOUTUBE_URL2
+
+            ),
             rx.span("* Puedes ir viendo como va viajando Papá Noel si pinchas en el hashtag"),
-            rx.span("* Esta info puedes verla desde móvil, tablet o cualquier dispositivo con acceso a internet."),
             button(
                 "Twitter",
                 constants.TWITTER_URL
-            ),
-            rx.span("- Podremos seguir todo el viaje de Papá Noel desde su twitter"),
-            button(
-                "Twitch",
-                constants.TWITCH_URL
             ),
             class_name="nes-container is-dark with-title",
             align_items="start",
