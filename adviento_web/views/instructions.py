@@ -27,6 +27,7 @@ def instructions()-> rx.Component:
             class_name="nes-container is-dark with-title",
             align_items="start",
             width="100%",
+            
         ),
         style=Style.max_width_stye
     )           

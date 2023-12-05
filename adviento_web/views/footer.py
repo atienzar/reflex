@@ -32,9 +32,10 @@ def footer()-> rx.Component:
         #     class_name=""
         # ),
         rx.box(
-            class_name="nes-icon is-small star"
+            class_name="nes-charmander is-small"
+            
         ),
         padding_bottom=Size.BIG.value,
-        style=Styles.max_width_stye,
-        align_items="center"
+        style=Styles.footer_width_stye,
+        
     )

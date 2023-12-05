@@ -6,13 +6,13 @@ from .colors import TextColor,Color
 MAX_WIDTH = "1000px"
 
 class Size(Enum):
-    ZERO = "0px !important",
-    VERY_SMALL = "0.1em",
-    SMALL = "0.5em",
-    MEDIUM = "0.8em",
-    DEFAULT="1em",
-    BIG = "2em",
-    BUTTON ="2.7em",
+    ZERO = "0px !important"
+    VERY_SMALL = "0.1em"
+    SMALL = "0.5em"
+    MEDIUM = "0.8em"
+    DEFAULT="1em"
+    BIG = "2em"
+    BUTTON ="2.7em"
     VERY_BIG = "4em"
 
 STYLESHEET = (
@@ -51,6 +51,12 @@ BASE_STYLE = {
 
 max_width_stye = dict(
         align_items="start",
+        padding_x=Size.BIG.value,
+        width="100%",
+        max_width=MAX_WIDTH
+)
+footer_width_stye = dict(
+        align_items="center",
         padding_x=Size.BIG.value,
         width="100%",
         max_width=MAX_WIDTH

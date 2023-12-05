@@ -1,8 +1,9 @@
 TWITTER_URL="http://twitter.com/atienzar"
 FACEBOOK_URL="http://twitter.com/atienzar"
-GITHUM_URL="http://twitter.com/atienzar"
+GITHUB_URL="https://github.com/atienzar/"
 TWITCH_URL="https://www.twitch.tv/directory"
 YOUTUBE_URL="https://www.youtube.com/watch?v=BgUBGxxqMBc"
 DISCORD_URL="https://www.youtube.com/watch?v=BgUBGxxqMBc"
-
-ADVIENTO_HASHTAG_URL="http://twitter.com/atienzar"
+GITHUB_REPO="https://github.com/atienzar/reflex"
+ADVIENTO_HASHTAG_URL="https://twitter.com/search?q=%23navidad2023&src=typed_query"
+VERSION="1.0.0"

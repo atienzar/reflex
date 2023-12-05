@@ -25,8 +25,8 @@ def header()-> rx.Component:
             rx.vstack(
                 rx.hstack(
                     rx.box(
-                        rx.text("24 Dias 24 Regalos"),
                         rx.text("Del 1 al 24 de Diciembre"),
+                        rx.text("Iremos marcando el calendario"),
                         class_name="nes-balloon from-right is-dark"
                     ),
                     rx.box(
@@ -35,17 +35,17 @@ def header()-> rx.Component:
                     ),
                 ),
                 rx.span(
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id dui eu arcu egestas porttitor a in leo.",
+                    "Vamos a utilizar este calendario navideño para saber cuánto queda para Navidad y los",
                     rx.span(
-                        "comunidad bnt",
+                        " eventos especiales.",
                         color=TextColor.ACCENT.value,
-                        font_size=Size.MEDIUM.value
+                        font_size=Size.DEFAULT.value
                     )
                 ),
                 rx.span(
-                    "Proin nisi enim, volutpat ut dui et, venenatis blandit lectus. Etiam ultrices leo quis urna commodo. Cras dictum eros quis lorem imperdiet ultrices. "
+                    "TAmbién marcaremos los días que son especiales para nosotros y las apariciones estaleras de SSMM Los Reyes MAgos y Papá Noel!"
                 ),
-                rx.span("Una actividad navideña y muy guay"),
+                rx.span("Una actividad navideña y muy divertida"),
                 rx.link(
                     "#navidad2023",
                     href="http://twitter.com/#navidad2023",
