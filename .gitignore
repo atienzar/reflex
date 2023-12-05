@@ -1,0 +1,6 @@
+*.db
+*.py[cod]
+--frontend-onl
+.venv
+.web
+__pycache__/
