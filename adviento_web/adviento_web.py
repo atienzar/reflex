@@ -12,7 +12,7 @@ from adviento_web.components.github import github
 
 def index()-> rx.Component:
     return rx.box(
-        rx.script("document.documentElement.lang = 'es"),
+        rx.script("document.documentElement.lang = 'es'"),
         rx.script(src="/js/snow.js"),
         navbar(),
         rx.center(
@@ -39,7 +39,7 @@ app = rx.App(
 
 app.add_page(
     index,
-    title="Calendario de adviento 2023 | 24 dias. 24 regalos" ,
+    title="Calendario de adviento 2023 | 24 dias" ,
     description="Cada dia un regalo diferente"
     
 )
